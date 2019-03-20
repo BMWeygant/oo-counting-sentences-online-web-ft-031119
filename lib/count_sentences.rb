@@ -3,11 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    if self.split("_").last == "."
-      self == sentence
-    else
-      self != sentence
-    end
+    
   end
 
   def question?
