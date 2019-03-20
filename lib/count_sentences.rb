@@ -30,6 +30,5 @@ class String
 self.split(/\.|\?|\!/).delete_if? do |x|
   binding.pry
    x.size < 2
- end
   end
 end
