@@ -4,9 +4,9 @@ class String
 
   def sentence?
     if self.split("_").last == "."
-      true
+      self == sentence
     else
-      false
+      self != sentence
     end
   end
 
